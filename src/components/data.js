@@ -38,7 +38,7 @@ const facultyData = [
     name: "Dr. M. D. Chaudhari",
     designation: "Professor & HoD",
     imageSrc:
-      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/652515554c568.jpg",
+      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/6525219c39d4c.jpg",
     
     education: [
       "Ph. D. (CSE), QIP Scholar, Walchand College of Engineering (Sangli - MH), S. U. Kolhapur",
@@ -72,7 +72,7 @@ const facultyData = [
     name: "Dr. S. S. Patil",
     designation: "Professor & HoD",
     imageSrc:
-      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/652515554c568.jpg",
+      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/65251f0953e91.JPG",
     
     education: [
       "Ph. D. (CSE), QIP Scholar, Walchand College of Engineering (Sangli - MH), S. U. Kolhapur",
@@ -106,7 +106,7 @@ const facultyData = [
     name: "Dr. S. S. Patil",
     designation: "Professor & HoD",
     imageSrc:
-      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/652515554c568.jpg",
+      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/652520ed7b249.jpeg",
     
     education: [
       "Ph. D. (CSE), QIP Scholar, Walchand College of Engineering (Sangli - MH), S. U. Kolhapur",
@@ -140,7 +140,7 @@ const facultyData = [
     name: "Dr. S. S. Patil",
     designation: "Professor & HoD",
     imageSrc:
-      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/652515554c568.jpg",
+      "https://www.ritindia.edu/ritwebsite/admin/upload/faculty/65251d039c532.jpeg",
     
     education: [
       "Ph. D. (CSE), QIP Scholar, Walchand College of Engineering (Sangli - MH), S. U. Kolhapur",

@@ -1,12 +1,12 @@
 /* eslint-disable no-unused-vars */
-import React from 'react';
-import { useParams } from 'react-router-dom';
-import FacultyProfile from './FacultyProfile';
-import AccordionInfo from './AccordionInfo.jsx';
-import Accordion from 'react-bootstrap/Accordion';
-import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import facultyData from './data.js';
+import React from "react";
+import { useParams } from "react-router-dom";
+import FacultyProfile from "./FacultyProfile";
+import AccordionInfo from "./AccordionInfo.jsx";
+import Accordion from "react-bootstrap/Accordion";
+import Card from "react-bootstrap/Card";
+import Button from "react-bootstrap/Button";
+import facultyData from "./data.js";
 
 function FacultyDetails() {
   const { id } = useParams();
@@ -22,17 +22,20 @@ function FacultyDetails() {
   }
 
   return (
-    <div className="container m-5 pt-4 pb-2" >
-      <div className="row" style={{ height: '100vh' }}>
-
-        <div className="col-md-4">
-          <FacultyProfile faculty={facultyDetails}/>
+    <div
+      className="container ml-auto mr-auto mt-4 p-4"
+      style={{ maxWidth: "83%" }}
+    >
+      <div className="row" style={{ height: "100vh" }}>
+        <div className="col-lg-4 col-md-6">
+          {" "}
+          <FacultyProfile faculty={facultyDetails} />
         </div>
 
-        <div className="col-md-8">
-          <AccordionInfo moreDetails={facultyDetails.moreDetails} />
+        <div className="col-lg-8 col-md-6">
+          {" "}
+          <AccordionInfo facultyDetails={facultyDetails} />
         </div>
-
       </div>
     </div>
   );
